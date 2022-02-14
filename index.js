@@ -133,4 +133,13 @@
   // const sumOfAllNum = (sum,num) => sum+num;
   // console.log(oddIndexArray.reduce(sumOfAllNum,0));
 
+// ------------------------------------------------
+
+// Q12. Given an array of integers, find the biggest number in the array.
+
+// Ans12:
+  // const arr = [1, 5, 8, 10, 14, 25, 12];
+  // const biggestNum = (bigNum, num)=>num>bigNum?bigNum=num:bigNum;
+  // console.log(arr.reduce(biggestNum,0));
+
 
