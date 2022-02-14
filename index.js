@@ -57,6 +57,22 @@
 
 // ------------------------------------------------
 
+// Q7. Write your own map using for loop.
+
+// Ans7: 
+  // Array.prototype.myMap = function(callback){
+  //   const newArray = [];
+  //   for(let i=0;i<this.length;i++){
+  //     newArray.push(callback(this[i]));
+  //   }
+  //   return newArray;
+  // }
+
+  // Implementation: myMap() method - Example:
+
+  // const arr = [1, 5, 8, 10, 14, 25, 12];
+  // const double = num => num*2;
+  // console.log(arr.myMap(double));
 
 
 
