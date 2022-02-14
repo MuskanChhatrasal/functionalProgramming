@@ -169,4 +169,22 @@
   // const sumOfOddEven = (oddEvenObj, num)=>num%2===0?{...oddEvenObj, even: oddEvenObj.even + num}:{...oddEvenObj, odd: oddEvenObj.odd + num};
   // console.log(arr.reduce(sumOfOddEven,oddEvenObj));
 
+// ------------------------------------------------
+
+// Q16. find the number of string with similar number of characters.
+// o.p = {5:2, 6:2}
+
+// Ans:
+  // const stringArr = ["apple","orange","mango","papaya"];
+  // const strLength = str => str.length;
+  // const lengthOfStrArray = stringArr.map(strLength);
+  // const similarStrLength = array =>{
+  //      const strObj = {};
+  //      array.map((item)=> strObj[item]?strObj[item]++:strObj[item]=1);
+  //      return strObj;
+  // }
+  // console.log(similarStrLength(lengthOfStrArray));
+
+// -----------------------------------------------
+
 
