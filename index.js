@@ -151,3 +151,12 @@
 // console.log(arr.filter(numDivisibleBy10));
 
 // ------------------------------------------------
+
+// Q14. Return an array of numbers where odd numbers are incremented by 1 and even numbers are decremented by 1.
+
+// Ans14:
+  // const arr = [1, 5, 8, 10, 14, 25, 12]
+  // const oddIncreEvenDecre = num => num%2 === 0 ? num -1 : num+1;
+  // console.log(arr.map(oddIncreEvenDecre));
+
+
