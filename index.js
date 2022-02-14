@@ -114,5 +114,13 @@
   // const reducer = (sum,num) => sum + num;
   // console.log(arr.myReduce(reducer));
 
-//------------------------------------------------  
+//------------------------------------------------
+
+// Q10. Given an array of integers, find the sum of all odd numbers.
+
+// Ans10: 
+  // const arr = [1, 5, 8, 10, 14, 25, 12];
+  // const sumOfAllOddNum = (sum, num) => num%2 !== 0 ? sum + num: sum;
+  // console.log(arr.reduce(sumOfAllOddNum,0));
+
 
