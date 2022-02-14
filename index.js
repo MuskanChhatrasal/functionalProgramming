@@ -38,4 +38,11 @@
   // const lessThan10OrNot = num => num < 10;
   // console.log(arr.filter(lessThan10OrNot));
 
+// Q5. Given an array of numbers written an object for each item.
+
+// Ans5: 
+  // const arr = [1, 5, 8, 10, 14, 25, 12];
+  // const arrayToObject = num => ({num});
+  // console.log(arr.map(arrayToObject));
+
 
