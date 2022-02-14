@@ -159,4 +159,14 @@
   // const oddIncreEvenDecre = num => num%2 === 0 ? num -1 : num+1;
   // console.log(arr.map(oddIncreEvenDecre));
 
+//-------------------------------------------------
+
+// Q15. Return an object of sum of all odd numbers and even numbers separately.
+
+// Ans15: 
+  // const arr = [1, 5, 8, 10, 14, 25, 12];
+  // const oddEvenObj = {odd: 0, even: 0};
+  // const sumOfOddEven = (oddEvenObj, num)=>num%2===0?{...oddEvenObj, even: oddEvenObj.even + num}:{...oddEvenObj, odd: oddEvenObj.odd + num};
+  // console.log(arr.reduce(sumOfOddEven,oddEvenObj));
+
 
