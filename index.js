@@ -74,5 +74,27 @@
   // const double = num => num*2;
   // console.log(arr.myMap(double));
 
+// ------------------------------------------------
+
+// Q8. Write your own filter using for loop.
+
+// Ans8: 
+  // Array.prototype.myFilter = function(callback){
+  //   const newArray = [];
+  //   for(let i=0;i<this.length;i++){
+  //     if(callback(this[i])){
+  //       newArray.push(this[i]);
+  //     }
+  //   }
+  //   return newArray;
+  // }
+
+  // Implementation: myFilter() method - Example:
+
+  // const arr = [1, 5, 8, 10, 14, 25, 12];
+  // const greaterThan10 = num => num>10;
+  // console.log(arr.myFilter(greaterThan10));
+
+//------------------------------------------------ 
 
 
