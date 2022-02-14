@@ -29,3 +29,13 @@
   // const birthday = person => ({name: person.name, age: person.age + 1});
   // console.log(birthday(mussu));
 
+// ----------------------------------------------
+
+// Q4. Write a function which can tell whether a number is less than 10 or not. Supply this function to Array.filter() to get an array with a number less than 10's in it.
+
+// Ans4: 
+  // const arr = [1, 5, 8, 10, 14, 25, 12];
+  // const lessThan10OrNot = num => num < 10;
+  // console.log(arr.filter(lessThan10OrNot));
+
+
