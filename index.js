@@ -123,4 +123,14 @@
   // const sumOfAllOddNum = (sum, num) => num%2 !== 0 ? sum + num: sum;
   // console.log(arr.reduce(sumOfAllOddNum,0));
 
+// ------------------------------------------------
+
+// Q11. Given an array of integers, find the sum of all numbers at odd indices.
+
+// Ans11: 
+  // const arr = [1, 5, 8, 10, 14, 25, 12];
+  // const numAtOddIndex = (num,index)=> index%2 !== 0;const oddIndexArray = arr.filter(numAtOddIndex);
+  // const sumOfAllNum = (sum,num) => sum+num;
+  // console.log(oddIndexArray.reduce(sumOfAllNum,0));
+
 
