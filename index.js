@@ -142,4 +142,12 @@
   // const biggestNum = (bigNum, num)=>num>bigNum?bigNum=num:bigNum;
   // console.log(arr.reduce(biggestNum,0));
 
+// ------------------------------------------------
 
+// Q13. Given an array of integers, find the numbers divisible by 10.
+
+// const arr = [1, 5, 8, 10, 14, 25, 120, 40];
+// const numDivisibleBy10 = num => num%10==0;
+// console.log(arr.filter(numDivisibleBy10));
+
+// ------------------------------------------------
