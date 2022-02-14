@@ -97,4 +97,22 @@
 
 //------------------------------------------------ 
 
+// Q9. Write your own reduce using for loop.
+
+// Ans9: 
+  // Array.prototype.myReduce = function(callback){
+  //   var acc = 0;
+  //   for(let i=0;i<this.length;i++){
+  //     callback(acc = acc+this[i]);
+  //   }
+  //   return acc;
+  // }
+
+  // Implementation: myFilter() method - Example:
+
+  // const arr = [1, 5, 8, 10, 14, 25, 12];
+  // const reducer = (sum,num) => sum + num;
+  // console.log(arr.myReduce(reducer));
+
+//------------------------------------------------  
 
