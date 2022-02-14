@@ -17,3 +17,15 @@
   // const addTwoMoreColor = [...color, 'pink', 'purple'];
   // console.log(addTwoMoreColor);
 
+// ------------------------------------------------
+
+// Q3. Write a  function birthday() to take a person's name and age in an object and increase age.
+
+// Ans3: 
+  // const mussu = {
+  //   name: 'mussu',
+  //   age: 20
+  // };
+  // const birthday = person => ({name: person.name, age: person.age + 1});
+  // console.log(birthday(mussu));
+
