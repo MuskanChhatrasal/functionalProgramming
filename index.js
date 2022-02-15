@@ -215,6 +215,14 @@
 
 // ------------------------------------------------
 
+// Q20: Write a function which can log any text with your username. Another function which can write any text with your user ID. Now compose both function to give one function which can log any text with both username + userID
+
+// Ans20: 
+  // const logWithUsername = msg => `Mussu says, ${msg}`;
+  // const logWithUserId = msg => `ID: 123456 :: ${msg}`;
+  // const logWithUsernameAndUserId = msg => logWithUserId(logWithUsername(msg));
+ // console.log(logWithUsernameAndUserId('hello'));
+
 
 
 
