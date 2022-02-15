@@ -196,6 +196,28 @@
 
 // ------------------------------------------------
 
+// Q18. Return an array of objects with keys as items and value as number of characters in the string.
+
+// const stringArr = ["apple","orange","mango","papaya"];
+// const arrayToObject = item => ({item:item.length});
+// console.log(stringArr.map(arrayToObject)); 
+
+// Not giving correct output
+
+// -----------------------------------------------
+
+// Q19. Create a function which takes your name and returns a function which would add your name to anything that function says.
+
+// Ans19: 
+  // const addNameToMsg = name => msg => `${name}, says ${msg}`;
+  // const nameOfPerson = addNameToMsg('Mussu');
+  // console.log(nameOfPerson('abc'));
+
+// ------------------------------------------------
+
+
+
+
 
 
 
