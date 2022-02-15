@@ -185,6 +185,17 @@
   // }
   // console.log(similarStrLength(lengthOfStrArray));
 
-// -----------------------------------------------
+// ------------------------------------------------
+
+// Q17. Return an array with strings which have vowels.
+
+// Ans17:
+  // const stringArr = ["apple","orange","mango","papaya","bcc","cdd"];
+ // const isStringHasVowel = str => str.includes('a','e','i','o','u');
+// console.log(stringArr.filter(isStringHasVowel));
+
+// ------------------------------------------------
+
+
 
 
